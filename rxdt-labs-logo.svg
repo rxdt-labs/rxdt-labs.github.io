@@ -1,0 +1,22 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" fill="#0f1115"/>
+
+  <defs>
+    <linearGradient id="changeGradient" x1="0" y1="0" x2="100" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4a5568"/>
+      <stop offset="28%" stop-color="#4a5568"/>
+      <stop offset="45%" stop-color="#5ee6c9"/>
+      <stop offset="65%" stop-color="#ff8a5e"/>
+      <stop offset="100%" stop-color="#ff5e8a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- A flat line that steps up then settles, like a value updating -->
+  <g transform="translate(50,60)">
+    <path d="M0,60 L30,60 C45,60 45,15 60,15 L100,15" fill="none" stroke="url(#changeGradient)" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="100" cy="15" r="6" fill="#ff5e8a"/>
+  </g>
+
+  <text x="190" y="95" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" fill="#f2f4f7"><tspan font-size="42" style="font-variant-caps: small-caps;">rx</tspan><tspan font-size="42" font-family="'Cambria Math', 'STIX Two Math', 'Latin Modern Math', 'Times New Roman', serif" font-style="italic" font-weight="400">dt</tspan></text>
+  <text x="190" y="122" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" letter-spacing="4" fill="#8b93a1">LABS</text>
+</svg>
