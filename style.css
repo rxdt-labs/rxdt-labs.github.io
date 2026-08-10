@@ -9,3 +9,10 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+#slogan {
+  color: #f2f4f7;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 32px;
+  text-align: center;
+}
