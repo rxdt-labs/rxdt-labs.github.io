@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2E1065"/>
+      <stop offset="1" stop-color="#6D28D9"/>
+    </linearGradient>
+    <linearGradient id="camelGradient" x1="70" y1="0" x2="330" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4a5568"/>
+      <stop offset="28%" stop-color="#4a5568"/>
+      <stop offset="45%" stop-color="#5ee6c9"/>
+      <stop offset="65%" stop-color="#ff8a5e"/>
+      <stop offset="100%" stop-color="#ff5e8a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- badge -->
+  <rect x="0" y="0" width="400" height="400" rx="88" fill="url(#bg)"/>
+
+  <!-- ground line -->
+  <line x1="60" y1="304" x2="330" y2="304" stroke="#F5F3FF" stroke-width="6" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- legs -->
+  <g stroke="#F5F3FF" stroke-width="13" stroke-linecap="round">
+    <line x1="100" y1="252" x2="100" y2="300"/>
+    <line x1="155" y1="226" x2="155" y2="300"/>
+    <line x1="205" y1="226" x2="205" y2="300"/>
+    <line x1="260" y1="240" x2="260" y2="300"/>
+  </g>
+
+  <!-- camel back / double hump (also reads as a signal pulse, nodding to forcamla's event framework) -->
+  <path d="M70,246
+           Q102,150 150,204
+           Q180,240 208,204
+           Q248,150 278,232
+           T326,236"
+        fill="none" stroke="url(#camelGradient)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
