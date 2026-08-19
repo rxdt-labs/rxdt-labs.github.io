@@ -84,3 +84,31 @@ p.projects {
   margin: 4px 0 0;
 }
 
+@media (min-width: 768px) {
+  #logo {
+    margin-top: 56px;
+  }
+
+  #mission {
+    max-width: 1000px;
+    margin: 32px auto 48px;
+  }
+
+  h1.projects {
+    margin-top: 56px;
+  }
+
+  #projects-container {
+    margin-bottom: 48px;
+  }
+
+  .project-card {
+    padding: 40px;
+  }
+
+  .project-card img {
+    width: 180px;
+    height: 180px;
+  }
+}
+
